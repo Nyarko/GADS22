@@ -5,5 +5,7 @@ class Person (var Name: String) {
         println("Display: $Name")
     }
 
-    fun displayWithLambda(func: (s:String) -> Unit)
+    fun displayWithLambda(func: (s:String) -> Unit){
+        func(Name)
+    }
 }
