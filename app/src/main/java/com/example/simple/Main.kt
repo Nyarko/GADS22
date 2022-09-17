@@ -13,5 +13,7 @@ fun main (args: Array<String>) {
     kevin.Name ="Steven"
     println("Your name is ${kevin.Name}")
 
+    kevin.display()
+
     //kevin = Person()
 }
