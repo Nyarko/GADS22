@@ -17,3 +17,7 @@ fun main (args: Array<String>) {
 
     //kevin = Person()
 }
+
+fun printName(name: String) {
+    println(name)
+}
