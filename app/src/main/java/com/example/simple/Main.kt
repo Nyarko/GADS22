@@ -15,6 +15,8 @@ fun main (args: Array<String>) {
 
     kevin.display()
 
+    kevin.displayWithLambda {  }
+
     //kevin = Person()
 }
 
