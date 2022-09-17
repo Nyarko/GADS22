@@ -15,7 +15,7 @@ fun main (args: Array<String>) {
 
     kevin.display()
 
-    kevin.displayWithLambda {  }
+    kevin.displayWithLambda(::printName)
 
     //kevin = Person()
 }
