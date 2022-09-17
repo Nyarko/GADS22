@@ -5,7 +5,7 @@ import com.example.simple.com.rsk.Person
 fun main (args: Array<String>) {
     println("Hello World")
 
-    val kevin = Person()
+    val kevin = Person("Kevin")
     kevin.Name = "Olion"
 
     println("Your name is ${kevin.Name}")
