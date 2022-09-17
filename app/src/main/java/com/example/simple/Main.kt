@@ -6,7 +6,7 @@ fun main (args: Array<String>) {
     println("Hello World")
 
     val kevin = Person("Kevin")
-    kevin.Name = "Olion"
+    //kevin.Name = "Olion"
 
     println("Your name is ${kevin.Name}")
 
