@@ -9,4 +9,8 @@ fun main (args: Array<String>) {
     kevin.Name = "Olion"
 
     println("Your name is ${kevin.Name}")
+
+    kevin.Name ="Steven"
+    println("Your name is ${kevin.Name}")
+
 }
